@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="对于电机测速很多时候都需要使用带编码器。编码器测速的方法一般使用M法和T法。">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-11-26T05:22:22.697Z">
+<meta property="og:updated_time" content="2020-06-20T01:28:29.317Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -65,7 +65,7 @@
 			</ul>
 		</nav>
 		<nav>
-			总文章数 6
+			总文章数 7
 		</nav>
 		<nav class="header-smart-menu">
     		
@@ -180,6 +180,7 @@
       
         <p>对于电机测速很多时候都需要使用带编码器。编码器测速的方法一般使用M法和T法。</p>
 <a id="more"></a>
+
 <h1 id="1、M法（位置差分法）"><a href="#1、M法（位置差分法）" class="headerlink" title="1、M法（位置差分法）"></a>1、M法（位置差分法）</h1><!-- 空格&nbsp;&nbsp;&nbsp;&nbsp;
 回车<br/> <br/> -->
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M法又称测频法，其原理是在规定的采样周期Tc内，对光电编码器输出的脉冲信号计数实现转速测量。例如光电编码器是n线的，由于两路脉冲的上升沿与下降沿正好使编码器信号4倍频，则每旋转一周可以有4N个脉冲。现在假设检测时间是Tc，计数器的记录的脉冲数是M1。则电机每分钟转数：nm=60<em>m1/(4N</em>Tc) (r/min)。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在实际的测量中，时间Tc内的脉冲个数不一定正好是整数，而且存在最大半个脉冲的误差。如果要求测量的误差小于规定的范围，比如说是小于百分之一，那么M1就应该大于50。在一定的转速下要增大检测脉冲数M1以减小误差，可以增大检测时间Tc单考虑到实际的应用检测时间很短，例如伺服系统中的测量速度用于反馈控制，一般应在0.01秒以下。由此可见，减小测量误差的方法是采用高线数的光电编码器。例如采用固定周期测量，实现较简单，在高速测量时有较好的速度平稳性及较好的测量精度。但在低速时会出现波动幅度大，平稳性差优点：固定采样周期测量，实现起来简单易行。在高速测量时，有较好的速度平稳性及较高的测量精度。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M法测速适用于测量高转速，因为对于给定的光电编码器线数机测量时间Tc条件下，转速越高，计数脉冲M1越大，误差也就越小。</p>
@@ -381,14 +382,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color5">Blog</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color5">hexo</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color4">DSP</a>
               </li>
              
@@ -406,6 +399,22 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color3">软件</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color5">Blog</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color5">hexo</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color1">STM32</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color2">移相PWM波</a>
               </li>
              
               <li class="article-tag-list-item">
